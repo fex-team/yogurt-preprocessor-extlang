@@ -1,0 +1,24 @@
+{
+  "name": "yogurt-preprocessor-extlang",
+  "version": "0.0.1",
+  "description": "An fis preproccessor plugin for parse swig custom tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/2betop/yogurt-preprocessor-extlang.git"
+  },
+  "keywords": [
+    "fis",
+    "preprocessor",
+    "extlang"
+  ],
+  "author": "fis-dev",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/2betop/yogurt-preprocessor-extlang/issues"
+  },
+  "homepage": "https://github.com/2betop/yogurt-preprocessor-extlang"
+}
