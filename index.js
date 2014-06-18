@@ -97,8 +97,9 @@ parser.extCss = function extCss(content, map){
 // html
 //{%script ...%}...{%/script%} to analyse as js
 parser.extHtml = function extHtml(content, map, conf){
-    var reg = new RegExp('('+ld+'\\s*script(?:(?=\\s)[\\s\\S]*?["\'\\s\\w]'+rd+'|'+rd+'))([\\s\\S]*?)(?='+ld+'endscript\\s*'+rd+'|$)|('+ld+'\\s*style(?:(?=\\s)[\\s\\S]*?["\'\\s\\w\\-]'+rd+'|'+rd+'))([\\s\\S]*?)(?='+ld+'endstyle\\s*'+rd+'|$)', 'ig');
+    var reg = new RegExp('('+ld+'\\s*script(?:(?=\\s)[\\s\\S]*?["\'\\s\\w]'+rd+'|'+rd+'))([\\s\\S]*?)(?='+ld+'\\s*endscript\\s*'+rd+'|$)|('+ld+'\\s*style(?:(?=\\s)[\\s\\S]*?["\'\\s\\w\\-]'+rd+'|'+rd+'))([\\s\\S]*?)(?='+ld+'\\s*endstyle\\s*'+rd+'|$)', 'ig');
     return content.replace(reg, function(m, $1, $2, $3, $4){
+        // console.log('----\n',$2,'\n------');
         if ($1) {
             m = $1 + parser.extJs($2, map);
         } else if($3){
