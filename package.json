@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/2betop/yogurt-preprocessor-extlang.git"
+    "url": "git://github.com/fex-team/yogurt-preprocessor-extlang.git"
   },
   "keywords": [
     "fis",
@@ -18,7 +18,7 @@
   "author": "fis-dev",
   "license": "mit",
   "bugs": {
-    "url": "https://github.com/2betop/yogurt-preprocessor-extlang/issues"
+    "url": "https://github.com/fex-team/yogurt-preprocessor-extlang/issues"
   },
-  "homepage": "https://github.com/2betop/yogurt-preprocessor-extlang"
+  "homepage": "https://github.com/fex-team/yogurt-preprocessor-extlang"
 }
